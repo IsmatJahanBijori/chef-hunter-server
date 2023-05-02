@@ -1,49 +1,49 @@
 [
     {
       "id": 1,
-      "picture": "https://example.com/chef1.png",
+      "picture": "https://i.ibb.co/sJxt1z6/chef-with-thumb-up-white-background.jpg",
       "name": "John Doe",
-      "yearsOfExperience": 10,
+      "experience": 10,
       "numberOfRecipes": 50,
       "likes": 1000
     },
     {
       "id": 2,
-      "picture": "https://example.com/chef2.png",
+      "picture": "https://i.ibb.co/XxdP0BB/chef-front-fire-49875137.jpg",
       "name": "Jane Smith",
-      "yearsOfExperience": 8,
+      "experience": 8,
       "numberOfRecipes": 30,
       "likes": 800
     },
     {
       "id": 3,
-      "picture": "https://example.com/chef3.png",
+      "picture": "https://i.ibb.co/0tKjSSx/female-chef-restaurant-kitchen-cooking-26869165.jpg",
       "name": "Michael Johnson",
-      "yearsOfExperience": 15,
+      "experience": 15,
       "numberOfRecipes": 75,
       "likes": 1500
     },
     {
       "id": 4,
-      "picture": "https://example.com/chef4.png",
+      "picture": "https://i.ibb.co/0tKjSSx/female-chef-restaurant-kitchen-cooking-26869165.jpg",
       "name": "Sarah Lee",
-      "yearsOfExperience": 12,
+      "experience": 12,
       "numberOfRecipes": 60,
       "likes": 1200
     },
     {
       "id": 5,
-      "picture": "https://example.com/chef5.png",
+      "picture": "https://i.ibb.co/sJxt1z6/chef-with-thumb-up-white-background.jpg",
       "name": "David Kim",
-      "yearsOfExperience": 7,
+      "experience": 7,
       "numberOfRecipes": 20,
       "likes": 500
     },
     {
       "id": 6,
-      "picture": "https://example.com/chef6.png",
+      "picture": "https://i.ibb.co/XxdP0BB/chef-front-fire-49875137.jpg",
       "name": "Olivia Davis",
-      "yearsOfExperience": 5,
+      "experience": 5,
       "numberOfRecipes": 10,
       "likes": 200
     }
