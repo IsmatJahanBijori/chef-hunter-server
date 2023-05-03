@@ -1,0 +1,56 @@
+[
+    {
+      "id": "1",
+      "picture": "https://example.com/chef1.png",
+      "name": "John Doe",
+      "description": "John is an experienced chef with a passion for creating unique and delicious dishes. He has worked in top restaurants around the world and has won numerous awards for his culinary creations.",
+      "likes": 1000,
+      "numberOfRecipes": 50,
+      "yearsOfExperience": 10
+    },
+    {
+      "id": "2",
+      "picture": "https://example.com/chef2.png",
+      "name": "Jane Smith",
+      "description": "Jane is a creative and talented chef who loves experimenting with new ingredients and flavors. She has a background in fine dining and has trained under some of the top chefs in the industry.",
+      "likes": 800,
+      "numberOfRecipes": 30,
+      "yearsOfExperience": 8
+    },
+    {
+      "id": "3",
+      "picture": "https://example.com/chef3.png",
+      "name": "Michael Johnson",
+      "description": "Michael is a seasoned chef with over 15 years of experience in the industry. He specializes in French cuisine and has worked in Michelin-starred restaurants in Paris, New York, and Tokyo.",
+      "likes": 1500,
+      "numberOfRecipes": 75,
+      "yearsOfExperience": 15
+    },
+    {
+      "id": "4",
+      "picture": "https://example.com/chef4.png",
+      "name": "Sarah Lee",
+      "description": "Sarah is a creative and innovative chef who is passionate about using fresh, locally sourced ingredients in her cooking. She has experience in both fine dining and casual restaurants, and loves to experiment with new flavors and techniques.",
+      "likes": 1200,
+      "numberOfRecipes": 60,
+      "yearsOfExperience": 12
+    },
+    {
+      "id": "5",
+      "picture": "https://example.com/chef5.png",
+      "name": "David Kim",
+      "description": "David is a young and ambitious chef who is constantly pushing the boundaries of traditional cuisine. He has a background in molecular gastronomy and loves to incorporate science and technology into his cooking.",
+      "likes": 500,
+      "numberOfRecipes": 20,
+      "yearsOfExperience": 7
+    },
+    {
+      "id": "6",
+      "picture": "https://example.com/chef6.png",
+      "name": "Olivia Davis",
+      "description": "Olivia is a passionate and creative chef who loves to explore new cuisines and flavors. She has experience in both fine dining and casual restaurants, and loves to incorporate local and seasonal ingredients into her cooking.",
+      "likes": 200,
+      "numberOfRecipes": 10,
+      "yearsOfExperience": 5
+    }
+  ]
