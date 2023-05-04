@@ -1,56 +1,459 @@
 [
-    {
-      "id": "1",
-      "picture": "https://example.com/chef1.png",
-      "name": "John Doe",
-      "description": "John is an experienced chef with a passion for creating unique and delicious dishes. He has worked in top restaurants around the world and has won numerous awards for his culinary creations.",
-      "likes": 1000,
-      "numberOfRecipes": 50,
-      "yearsOfExperience": 10
-    },
-    {
-      "id": "2",
-      "picture": "https://example.com/chef2.png",
-      "name": "Jane Smith",
-      "description": "Jane is a creative and talented chef who loves experimenting with new ingredients and flavors. She has a background in fine dining and has trained under some of the top chefs in the industry.",
-      "likes": 800,
-      "numberOfRecipes": 30,
-      "yearsOfExperience": 8
-    },
-    {
-      "id": "3",
-      "picture": "https://example.com/chef3.png",
-      "name": "Michael Johnson",
-      "description": "Michael is a seasoned chef with over 15 years of experience in the industry. He specializes in French cuisine and has worked in Michelin-starred restaurants in Paris, New York, and Tokyo.",
-      "likes": 1500,
-      "numberOfRecipes": 75,
-      "yearsOfExperience": 15
-    },
-    {
-      "id": "4",
-      "picture": "https://example.com/chef4.png",
-      "name": "Sarah Lee",
-      "description": "Sarah is a creative and innovative chef who is passionate about using fresh, locally sourced ingredients in her cooking. She has experience in both fine dining and casual restaurants, and loves to experiment with new flavors and techniques.",
-      "likes": 1200,
-      "numberOfRecipes": 60,
-      "yearsOfExperience": 12
-    },
-    {
-      "id": "5",
-      "picture": "https://example.com/chef5.png",
-      "name": "David Kim",
-      "description": "David is a young and ambitious chef who is constantly pushing the boundaries of traditional cuisine. He has a background in molecular gastronomy and loves to incorporate science and technology into his cooking.",
-      "likes": 500,
-      "numberOfRecipes": 20,
-      "yearsOfExperience": 7
-    },
-    {
-      "id": "6",
-      "picture": "https://example.com/chef6.png",
-      "name": "Olivia Davis",
-      "description": "Olivia is a passionate and creative chef who loves to explore new cuisines and flavors. She has experience in both fine dining and casual restaurants, and loves to incorporate local and seasonal ingredients into her cooking.",
-      "likes": 200,
-      "numberOfRecipes": 10,
-      "yearsOfExperience": 5
-    }
-  ]
+  {
+    "id": "1",
+    "bio": "Chef  is an accomplished pastry chef with a passion for creating delightful desserts that satisfy even the most discerning palates. With years of experience in the culinary industry, Chef Emily has mastered the art of blending flavors and textures to create exceptional sweet treats.Her journey as a chef began at a young age, inspired by her grandmother's love for baking. Under her grandmother's guidance, Chef Emily learned the secrets of making delicious pies, cakes, and pastries. This early exposure ignited her passion for the culinary arts and set her on a path to becoming a renowned pastry chef.",
+    "picture": "https://i.ibb.co/1qYqMvc/istockphoto-1142230160-612x612.jpg",
+    "name": "John Doe",
+    "experience": 10,
+    "numberOfRecipes": 50,
+    "likes": 1000,
+    "recipes": [
+      [
+        {
+          "recipes_id": 1,
+          "name": "Biriyani",
+          "ingredients": [
+            "2 cups basmati rice",
+            "1 lb. chicken or mutton",
+            "1 onion, sliced",
+            "2 cups water",
+            "1/2 cup yogurt",
+            "2 tbsp. ghee",
+            "1 tsp. ginger paste",
+            "1 tsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. turmeric powder",
+            "2 bay leaves",
+            "4 cardamom pods",
+            "4 cloves",
+            "1 cinnamon stick",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. Soak the rice in water for 30 minutes.\n2. Heat the ghee in a pot and fry the onions until golden brown.\n3. Add the chicken or mutton and fry until browned.\n4. Add the ginger paste, garlic paste, cumin powder, coriander powder, turmeric powder, bay leaves, cardamom pods, cloves, cinnamon stick, and salt. Fry for 2 minutes.\n5. Add the yogurt and fry for 5 minutes.\n6. Add the water and bring to a boil.\n7. Add the soaked rice and cook until the rice is done.\n8. Serve hot with raita and salad.",
+          "rating": 4.3
+        }
+      ],
+      [
+        {
+          "recipes_id": 2,
+          "name": "Shorshe Ilish",
+          "ingredients": [
+            "4 ilish fish",
+            "1 onion, sliced",
+            "1 tbsp. mustard seeds",
+            "1 tsp. turmeric powder",
+            "1 tsp. red chili powder",
+            "2 green chilies, sliced",
+            "2 tbsp. mustard oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. Marinate the fish with turmeric powder and salt.\n2. Heat the mustard oil in a pan and fry the fish until browned. Remove and keep aside.\n3. Add the onion and fry until golden brown.\n4. Add the mustard seeds and fry for 1 minute.\n5. Add the turmeric powder, red chili powder, and salt. Fry for 2 minutes.\n6. Add 1 cup of water and bring to a boil.\n7. Add the fried fish and green chilies.\n8. Cover and cook for 10 minutes on low heat.\n9. Serve hot with steamed rice.",
+          "rating": 4.8
+        }
+      ],
+      [
+        {
+          "recipes_id": 3,
+          "name": "Chapli Kebab",
+          "ingredients": [
+            "1 lb. ground beef",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1 tbsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1 egg",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a large mixing bowl, combine the ground beef, onion, cilantro, ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, garam masala, egg, and salt. Mix well.\n2. Form the mixture into small, thin patties.\n3. Heat the oil in a large skillet over medium heat. Add the patties and cook until browned on both sides and cooked through, about 5-7 minutes per side.\n4. Serve hot with green chutney or ketchup.",
+          "rating": 4.5
+        }
+      ]
+    ]
+  },
+  {
+    "id": "2",
+    "bio": "Chef is a skilled pastry chef with a love for making delectable desserts that please even the pickiest palates. Chef Emily has perfected the skill of fusing flavors and textures to produce amazing sweet treats thanks to her years of experience in the food industry.Her grandmother's passion of baking served as inspiration for her early career as a chef. Chef Emily received instruction from her grandmother on how to prepare delectable pies, cakes, and pastries. Her passion for the culinary arts was sparked by this early exposure, which led her to pursue a career as a renowned pastry chef.",
+    "picture": "https://i.ibb.co/XxdP0BB/chef-front-fire-49875137.jpg",
+    "name": "Jane Smith",
+    "experience": 8,
+    "numberOfRecipes": 30,
+    "likes": 800,
+    "recipes": [
+      [
+        {
+          "recipes_id": 1,
+          "name": "Mutton Curry with Potatoes",
+          "ingredients": [
+            "1 kg Mutton",
+            "4 pcs Potato",
+            "1/2 cup Chopped onion",
+            "1 tsp each Ginger-garlic paste",
+            "1 tsp Cumin powder",
+            "1 tbsp Red chili powder",
+            "1/2 tsp Mace-nutmeg paste",
+            "1 tsp papaya paste",
+            "1 tsp Turmeric powder",
+            "As required spices powder (Cinnamon, cardamom & cumin)",
+            "1/2 cup Vegetable/soybean oil",
+            "Salt To taste",
+            "2 pcs Bay leaves",
+            "4 pcs Cloves",
+            "1/2 tsp each Cinnamon-cardamom powders"
+          ],
+          "cooking_method": "1. Cut the meat into small pieces, wash and drain properly.\n2. Wash and drain potatoes. Mix with some salt and a pinch of turmeric powder or alternatively saffron powder for color.\n3. Now in the same oil add chopped onions, bay leaves, cloves and cook for a minute to make onions tender. No need to fry onions to brown. Add garlic and ginger pastes and stir for a while. Now add cumin powder, red chili powder, cinnamon powder, cardamom powder and some water. Mix and cook well till the spices release oil. Now add meat pieces and mix them properly. No need to add water in this stage since meat releases water. Cook for 5 minutes.\n5. When the spices mix gets thick and oil separates, add mace-nutmeg pastes, papaya paste and give a nice mix. Add water and cover with the lid. Cook for 20 minutes. You can add extra water in this stage and cook for extra 5 minutes if the meat is still hard. When water is reduced to half, add turmeric powder and cook for 2 to 3 minutes.\n6. hen add water as per your gravy requirement and cook with the lid. While boiling add the potatoes, again close the lid and cook for 15 to 20 minutes. When the gravy is dried to your requirement, turn the heat off and sprinkle some roasted cardamom, cumin and cinnamon powder mix. Serve warm with plain or pilaf rice, bread, paratha or naan bread.",
+          "rating": 4.7
+        }
+      ],
+      [
+        {
+          "recipes_id": 2,
+          "name": "Shorshe Ilish",
+          "ingredients": [
+            "4 ilish fish",
+            "1 onion, sliced",
+            "1 tbsp. mustard seeds",
+            "1 tsp. turmeric powder",
+            "1 tsp. red chili powder",
+            "2 green chilies, sliced",
+            "2 tbsp. mustard oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. Marinate the fish with turmeric powder and salt.\n2. Heat the mustard oil in a pan and fry the fish until browned. Remove and keep aside.\n3. Add the onion and fry until golden brown.\n4. Add the mustard seeds and fry for 1 minute.\n5. Add the turmeric powder, red chili powder, and salt. Fry for 2 minutes.\n6. Add 1 cup of water and bring to a boil.\n7. Add the fried fish and green chilies.\n8. Cover and cook for 10 minutes on low heat.\n9. Serve hot with steamed rice.",
+          "rating": 4.1
+        }
+      ],
+      [
+        {
+          "recipes_id": 3,
+          "name": "Stir-fried Cabbage with Garlic and Bengali Spices",
+          "ingredients": [
+            "1/2 head of cabbage shredded thinly",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1/2 tsp cumin seeds",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1/2 tsp nigella (black cumin seeds)",
+            "Fresh back pepper to taste",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. Heat the ghee  in a wok or large skillet over medium-high heat. Add in the dried chili and the three spices ans stir until the spices start crackling\n2. After they begin to crackle, add the fresh garlic and saute until the garlic turns a rich golden color and looks almost caramelized. Add in the cabbage and stir until all the cabbage is coated evenly with the ghee and spices. \n3. Add in the salt and stir until the cabbage is again evenly coated. Keep stirring for 5 minutes until the cabbage is wilted.\n4. Turn down the heat to low and cook covered another 10-15 minutes, stirring occasionally. \n5. Add crushed pepper just before serving",
+          "rating": 4.5
+        }
+      ]
+    ]
+  },
+  {
+    "id": "3",
+    "bio": "A skilled pastry chef, Chef has a passion for making delectable desserts that please even the pickiest diners. Chef Emily has a wealth of culinary experience and is a master at combining flavors and textures to produce delicious sweet delicacies.Her grandmother's passion for baking served as an early inspiration for her career as a chef. Chef Emily picked up the techniques for creating delectable pies, cakes, and pastries from her grandmother. This early exposure sparked her interest in the culinary arts and led her to pursue a career as a renowned pastry chef.",
+    "picture": "https://i.ibb.co/0tKjSSx/female-chef-restaurant-kitchen-cooking-26869165.jpg",
+    "name": "Michael Johnson",
+    "experience": 15,
+    "numberOfRecipes": 75,
+    "likes": 1500,
+    "recipes": [
+      [
+        {
+          "recipes_id": 1,
+          "name": "Dharosh Bhaji ",
+          "ingredients": [
+            "2 pounds of fresh okra cut into quarter inch slices",
+            "1/2 a medium onion very thinly sliced",
+            "2 cloves of garlic – finely chopped or sliced",
+            "1 tbsp of cooking oil",
+            "1/4 tsp of pepper",
+            "1 tsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1 cinnamon stick",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a preferably non-stick frying pan, heat oil over medium-high heat.\n2. When hot drop in the onion and garlic. Stir fry until garlic starts getting caramelized.\n3. Drop in all the spices and stir fry for a minute. Fry for 2 minutes.\n5. Drop in the okra and stir until properly coated by the spices.\n6. Reduce heat to medium and cook uncovered, stirring occasionally.  Your doneness will depend on your taste. My preference is to cook until the okra too gets caramelized.",
+          "rating": 4.7
+        }
+      ],
+      [
+        {
+          "recipes_id": 2,
+          "name": "Chapli Kebab",
+          "ingredients": [
+            "1 lb. ground beef",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1 tbsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1 egg",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a large mixing bowl, combine the ground beef, onion, cilantro, ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, garam masala, egg, and salt. Mix well.\n2. Form the mixture into small, thin patties.\n3. Heat the oil in a large skillet over medium heat. Add the patties and cook until browned on both sides and cooked through, about 5-7 minutes per side.\n4. Serve hot with green chutney or ketchup.",
+          "rating": 3.5
+        }
+      ],
+      [
+        {
+          "recipes_id": 3,
+          "name": "Chapli Kebab",
+          "ingredients": [
+            "1 lb. ground beef",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1 tbsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1 egg",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a large mixing bowl, combine the ground beef, onion, cilantro, ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, garam masala, egg, and salt. Mix well.\n2. Form the mixture into small, thin patties.\n3. Heat the oil in a large skillet over medium heat. Add the patties and cook until browned on both sides and cooked through, about 5-7 minutes per side.\n4. Serve hot with green chutney or ketchup.",
+          "rating": 4.5
+        }
+      ]
+    ]
+  },
+  {
+    "id": "4",
+    "bio": "Chef is a skilled pastry chef with a love for making delectable desserts that please even the pickiest palates. Chef Emily has perfected the skill of fusing flavors and textures to produce amazing sweet treats thanks to her years of experience in the food industry.Her grandmother's passion of baking served as inspiration for her early career as a chef. Chef Emily received instruction from her grandmother on how to prepare delectable pies, cakes, and pastries. Her passion for the culinary arts was sparked by this early exposure, which led her to pursue a career as a renowned pastry chef.",
+    "picture": "https://i.ibb.co/H4N8wsn/images-1.jpg",
+    "name": "Sarah Lee",
+    "experience": 12,
+    "numberOfRecipes": 60,
+    "likes": 1200,
+    "recipes": [
+      [
+        {
+          "recipes_id": 1,
+          "name": "Stir-fried Cabbage with Garlic and Bengali Spices",
+          "ingredients": [
+            "1/2 head of cabbage shredded thinly",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1/2 tsp cumin seeds",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1/2 tsp nigella (black cumin seeds)",
+            "Fresh back pepper to taste",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. Heat the ghee  in a wok or large skillet over medium-high heat. Add in the dried chili and the three spices ans stir until the spices start crackling\n2. After they begin to crackle, add the fresh garlic and saute until the garlic turns a rich golden color and looks almost caramelized. Add in the cabbage and stir until all the cabbage is coated evenly with the ghee and spices. \n3. Add in the salt and stir until the cabbage is again evenly coated. Keep stirring for 5 minutes until the cabbage is wilted.\n4. Turn down the heat to low and cook covered another 10-15 minutes, stirring occasionally. \n5. Add crushed pepper just before serving",
+          "rating": 4.5
+        }
+      ],
+      [
+        {
+          "recipes_id": 2,
+          "name": "Dharosh Bhaji ",
+          "ingredients": [
+            "2 pounds of fresh okra cut into quarter inch slices",
+            "1/2 a medium onion very thinly sliced",
+            "2 cloves of garlic – finely chopped or sliced",
+            "1 tbsp of cooking oil",
+            "1/4 tsp of pepper",
+            "1 tsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1 cinnamon stick",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a preferably non-stick frying pan, heat oil over medium-high heat.\n2. When hot drop in the onion and garlic. Stir fry until garlic starts getting caramelized.\n3. Drop in all the spices and stir fry for a minute. Fry for 2 minutes.\n5. Drop in the okra and stir until properly coated by the spices.\n6. Reduce heat to medium and cook uncovered, stirring occasionally.  Your doneness will depend on your taste. My preference is to cook until the okra too gets caramelized.",
+          "rating": 3.7
+        }
+      ],
+      [
+        {
+          "recipes_id": 3,
+          "name": "Mutton Curry",
+          "ingredients": [
+            "1 kg Mutton",
+            "4 pcs Potato",
+            "1/2 cup Chopped onion",
+            "1 tsp each Ginger-garlic paste",
+            "1 tsp Cumin powder",
+            "1 tbsp Red chili powder",
+            "1/2 tsp Mace-nutmeg paste",
+            "1 tsp papaya paste",
+            "1 tsp Turmeric powder",
+            "As required spices powder (Cinnamon, cardamom & cumin)",
+            "1/2 cup Vegetable/soybean oil",
+            "Salt To taste",
+            "2 pcs Bay leaves",
+            "4 pcs Cloves",
+            "1/2 tsp each Cinnamon-cardamom powders"
+          ],
+          "cooking_method": "1. Cut the meat into small pieces, wash and drain properly.\n2. Wash and drain potatoes. Mix with some salt and a pinch of turmeric powder or alternatively saffron powder for color.\n3. Now in the same oil add chopped onions, bay leaves, cloves and cook for a minute to make onions tender. No need to fry onions to brown. Add garlic and ginger pastes and stir for a while. Now add cumin powder, red chili powder, cinnamon powder, cardamom powder and some water. Mix and cook well till the spices release oil. Now add meat pieces and mix them properly. No need to add water in this stage since meat releases water. Cook for 5 minutes.\n5. When the spices mix gets thick and oil separates, add mace-nutmeg pastes, papaya paste and give a nice mix. Add water and cover with the lid. Cook for 20 minutes. You can add extra water in this stage and cook for extra 5 minutes if the meat is still hard. When water is reduced to half, add turmeric powder and cook for 2 to 3 minutes.\n6. hen add water as per your gravy requirement and cook with the lid. While boiling add the potatoes, again close the lid and cook for 15 to 20 minutes. When the gravy is dried to your requirement, turn the heat off and sprinkle some roasted cardamom, cumin and cinnamon powder mix. Serve warm with plain or pilaf rice, bread, paratha or naan bread.",
+          "rating": 4.5
+        }
+      ]
+    ]
+  },
+  {
+    "id": "5",
+    "bio": "Chef  is an accomplished pastry chef with a passion for creating delightful desserts that satisfy even the most discerning palates. With years of experience in the culinary industry, Chef Emily has mastered the art of blending flavors and textures to create exceptional sweet treats.Her journey as a chef began at a young age, inspired by her grandmother's love for baking. Under her grandmother's guidance, Chef Emily learned the secrets of making delicious pies, cakes, and pastries. This early exposure ignited her passion for the culinary arts and set her on a path to becoming a renowned pastry chef.",
+    "picture": "https://i.ibb.co/6NK8Zg1/images-2.jpg",
+    "name": "David Kim",
+    "experience": 7,
+    "numberOfRecipes": 20,
+    "likes": 500,
+    "recipes": [
+      [
+        {
+          "recipes_id": 1,
+          "name": "Dharosh Bhaji ",
+          "ingredients": [
+            "2 pounds of fresh okra cut into quarter inch slices",
+            "1/2 a medium onion very thinly sliced",
+            "2 cloves of garlic – finely chopped or sliced",
+            "1 tbsp of cooking oil",
+            "1/4 tsp of pepper",
+            "1 tsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1 cinnamon stick",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a preferably non-stick frying pan, heat oil over medium-high heat.\n2. When hot drop in the onion and garlic. Stir fry until garlic starts getting caramelized.\n3. Drop in all the spices and stir fry for a minute. Fry for 2 minutes.\n5. Drop in the okra and stir until properly coated by the spices.\n6. Reduce heat to medium and cook uncovered, stirring occasionally.  Your doneness will depend on your taste. My preference is to cook until the okra too gets caramelized.",
+          "rating": 4.7
+        }
+      ],
+      [
+        {
+          "recipes_id": 2,
+          "name": "Stir-fried Cabbage with Garlic and Bengali Spices",
+          "ingredients": [
+            "1/2 head of cabbage shredded thinly",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1/2 tsp cumin seeds",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1/2 tsp nigella (black cumin seeds)",
+            "Fresh back pepper to taste",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. Heat the ghee  in a wok or large skillet over medium-high heat. Add in the dried chili and the three spices ans stir until the spices start crackling\n2. After they begin to crackle, add the fresh garlic and saute until the garlic turns a rich golden color and looks almost caramelized. Add in the cabbage and stir until all the cabbage is coated evenly with the ghee and spices. \n3. Add in the salt and stir until the cabbage is again evenly coated. Keep stirring for 5 minutes until the cabbage is wilted.\n4. Turn down the heat to low and cook covered another 10-15 minutes, stirring occasionally. \n5. Add crushed pepper just before serving",
+          "rating": 4.5
+        }
+      ],
+      [
+        {
+          "recipes_id": 3,
+          "name": "Chapli Kebab",
+          "ingredients": [
+            "1 lb. ground beef",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1 tbsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1 egg",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a large mixing bowl, combine the ground beef, onion, cilantro, ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, garam masala, egg, and salt. Mix well.\n2. Form the mixture into small, thin patties.\n3. Heat the oil in a large skillet over medium heat. Add the patties and cook until browned on both sides and cooked through, about 5-7 minutes per side.\n4. Serve hot with green chutney or ketchup.",
+          "rating": 4.5
+        }
+      ]
+    ]
+  },
+  {
+    "id": "6",
+    "bio": "A skilled pastry chef, Chef has a passion for making delectable desserts that please even the pickiest diners. Chef Emily has a wealth of culinary experience and is a master at combining flavors and textures to produce delicious sweet delicacies.Her grandmother's passion for baking served as an early inspiration for her career as a chef. Chef Emily picked up the techniques for creating delectable pies, cakes, and pastries from her grandmother. This early exposure sparked her interest in the culinary arts and led her to pursue a career as a renowned pastry chef.",
+    "picture": "https://i.ibb.co/424xNzM/images-3.jpg",
+    "name": "Olivia Davis",
+    "experience": 5,
+    "numberOfRecipes": 10,
+    "likes": 200,
+    "recipes": [
+      [
+        {
+          "recipes_id": 1,
+          "name": "Chapli Kebab",
+          "ingredients": [
+            "1 lb. ground beef",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1 tbsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1 egg",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a large mixing bowl, combine the ground beef, onion, cilantro, ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, garam masala, egg, and salt. Mix well.\n2. Form the mixture into small, thin patties.\n3. Heat the oil in a large skillet over medium heat. Add the patties and cook until browned on both sides and cooked through, about 5-7 minutes per side.\n4. Serve hot with green chutney or ketchup.",
+          "rating": 4.5
+        }
+      ],
+      [
+        {
+          "recipes_id": 2,
+          "name": "Shorshe Ilish",
+          "ingredients": [
+            "4 ilish fish",
+            "1 onion, sliced",
+            "1 tbsp. mustard seeds",
+            "1 tsp. turmeric powder",
+            "1 tsp. red chili powder",
+            "2 green chilies, sliced",
+            "2 tbsp. mustard oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. Marinate the fish with turmeric powder and salt.\n2. Heat the mustard oil in a pan and fry the fish until browned. Remove and keep aside.\n3. Add the onion and fry until golden brown.\n4. Add the mustard seeds and fry for 1 minute.\n5. Add the turmeric powder, red chili powder, and salt. Fry for 2 minutes.\n6. Add 1 cup of water and bring to a boil.\n7. Add the fried fish and green chilies.\n8. Cover and cook for 10 minutes on low heat.\n9. Serve hot with steamed rice.",
+          "rating": 4.8
+        }
+      ],
+      [
+        {
+          "recipes_id": 3,
+          "name": "Chapli Kebab",
+          "ingredients": [
+            "1 lb. ground beef",
+            "1/2 cup finely chopped onion",
+            "2 tbsp. chopped cilantro",
+            "1 tbsp. ginger paste",
+            "1 tbsp. garlic paste",
+            "1 tsp. cumin powder",
+            "1 tsp. coriander powder",
+            "1/2 tsp. red chili powder",
+            "1/2 tsp. garam masala",
+            "1 egg",
+            "2 tbsp. oil",
+            "Salt to taste"
+          ],
+          "cooking_method": "1. In a large mixing bowl, combine the ground beef, onion, cilantro, ginger paste, garlic paste, cumin powder, coriander powder, red chili powder, garam masala, egg, and salt. Mix well.\n2. Form the mixture into small, thin patties.\n3. Heat the oil in a large skillet over medium heat. Add the patties and cook until browned on both sides and cooked through, about 5-7 minutes per side.\n4. Serve hot with green chutney or ketchup.",
+          "rating": 4.5
+        }
+      ]
+    ]
+  }
+]

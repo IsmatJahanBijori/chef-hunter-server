@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "picture": "https://i.ibb.co/sJxt1z6/chef-with-thumb-up-white-background.jpg",
+      "picture": "https://i.ibb.co/1qYqMvc/istockphoto-1142230160-612x612.jpg",
       "name": "John Doe",
       "experience": 10,
       "numberOfRecipes": 50,
@@ -25,7 +25,7 @@
     },
     {
       "id": "4",
-      "picture": "https://i.ibb.co/0tKjSSx/female-chef-restaurant-kitchen-cooking-26869165.jpg",
+      "picture": "https://i.ibb.co/H4N8wsn/images-1.jpg",
       "name": "Sarah Lee",
       "experience": 12,
       "numberOfRecipes": 60,
@@ -33,7 +33,7 @@
     },
     {
       "id": "5",
-      "picture": "https://i.ibb.co/sJxt1z6/chef-with-thumb-up-white-background.jpg",
+      "picture": "https://i.ibb.co/6NK8Zg1/images-2.jpg",
       "name": "David Kim",
       "experience": 7,
       "numberOfRecipes": 20,
@@ -41,10 +41,11 @@
     },
     {
       "id": "6",
-      "picture": "https://i.ibb.co/XxdP0BB/chef-front-fire-49875137.jpg",
+      "picture": "https://i.ibb.co/424xNzM/images-3.jpg",
       "name": "Olivia Davis",
       "experience": 5,
       "numberOfRecipes": 10,
       "likes": 200
     }
   ]
+ 
